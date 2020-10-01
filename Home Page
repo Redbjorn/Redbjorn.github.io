@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Black Goose Bistro Summer Menu</title>
+	<link href='http://fonts.googleapis.com/css?family=Marko+One'rel='stylesheet' type='text/css'>
+	<style>
+		body {
+			font-family: Georgia, serif;
+			font-size: 100%;
+			line-height: 175%;
+			margin: 0 15% 0;
+			background:url(images/blackgoose.png) center fixed no-repeat #d2dc9d;
+		}
+		#header {
+			margin-top: 0;
+			padding: 3em 1em 2em 1em;
+			text-align: center;
+			background-color: rgba(255, 255, 255, .5);
+			background: url(images/purpledot.png) left repeat-y, url(images/purpledot.png)
+			right repeat-y, url(images/goose_shadow.png) 85% 100%/80px no-repeat rgba(255,255,255,0.5);      
+		}
+
+		a {
+			text-deocration: none;
+		}
+/* unvisited link */
+        a:link {
+            color: #993399;
+}
+
+/* visited link */
+        a:visited {
+            color: #993397;
+}
+
+/* mouse over link */
+        a:hover {
+            color: gray;
+            background: white
+}
+
+/* selected link */
+        a:active {
+            color: #993399;
+}
+
+		h1 {
+			font: bold 1.5em Georgia, serif;
+			text-shadow: .1em .1em .2em gray;
+		}
+		h2{
+			font-size: 1em;
+			text-transform: uppercase;
+			letter-spacing: .5em;
+			text-align: center;
+			color:#cc6600;
+		}
+		dt {
+			font-weight: bold;
+		}
+		strong {
+			font-style: italic;
+		}
+		ul{
+			 list-style-type: none;
+			 margin: 0;
+			 padding: 0;
+		}
+		#info p {
+			font-style: italic;
+		}
+		.price {
+			font-family: Georgia, serif;
+			font-style: italic;
+		}
+		p.warning, sup {
+			font-size: small;
+		}
+		.label {
+			font-weight: bold;
+			font-variant: small-caps;
+			font-style: normal;
+		}
+
+		h2 + p {
+			text-align: center;
+			font-style: italic;
+		}
+        li a {
+        	color: #993399;
+        }
+
+	</style>
+</head>
+
+<body>
+
+	<div id="header">
+		<h1>Redbjorn's Website &bull; Code repository </h1>
+
+		<div id="info">
+			<p>Codeing info<br>
+				<span class="label">Proficient languages:</span> Pyhton, C++, Hopeeing to add more soon
+				<span class="label">Currently learning:</span>  C#, Amazon Aws, Python libraries including PyAutogui</p>
+				<ul>
+					<li><a href="#appetizers">Appetizers</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="PyAutogui">
+			<h2>PyAutogui</h2>
+			<p>PyAuto is a python libraray that is used to automate sismple tasks with image recognition and keyboard and mouse maniplutaion</p>
+
+			<dl>
+				<dt>Projects I have done with PyAutogui:</dt>
+				<dd>With PyAutogui I have automated Instgarm messageing and the process of finding unliked photos in my feed and liking them.</span></dd>
+
+				<dt>The Code for the Messaging Project:
+					<dd></dd>
+			</dl>
+		</div>
+
+			
+			
+				<p class="warning"><sup>*</sup> We are required to warn you that undercooked food is a health risk.</p>
+
+			</body>
+			</html>
