@@ -1,6 +1,6 @@
 <nav>
 		<ul class="row1" >
-			<li><a href="Home Page">Home</a></li>
+			<li><a href="Home Page.html">Home</a></li>
 			<li><a href="index.html">About</a></li>
 			<li><a href="blog.html">Blog</a></li>
 			<li><a href="" =>recipe</a></li>
